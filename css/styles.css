@@ -166,7 +166,20 @@ input:focus {
 .innner-bnr-links ul li a:hover {
 	color: var(--color-orange);
 }
+.mt-top{
+	margin-top: 5rem;
+}
 /* --- Header Section --- */
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid var(--color-border);
+	background: var(--bg-section-color);
+	z-index: 99;
+}
 .header-container {
 	display: flex;
 	align-items: center;
