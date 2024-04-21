@@ -1,0 +1,221 @@
+@media only screen and (max-width: 1140px) {
+	.container {
+		width: auto;
+		padding: 0 15px;
+	}
+}
+
+@media only screen and (max-width: 939px) {
+	.hero-content {
+		align-items: center;
+	}
+	.hero-content h1 {
+		text-align: center;
+	}
+	.hero-content p {
+		text-align: center;
+	}
+	.slick-dots {
+		bottom: 2rem;
+	}
+	.about-sec .grid-column-two {
+		grid-template-columns: 1fr;
+		gap: 4rem 0;
+	}
+	.value-sec .grid-column-three {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.service-sec .grid-column-three {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.work-sec .grid-column-three {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.clients-sec .grid-column-four {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.blog-sec .grid-column-three {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 3rem 2rem;
+	}
+	.footer-sec .grid-column-three {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.footer-sec .container {
+		border-left: none;
+		border-right: none;
+	}
+	.col-2 {
+		border-left: none;
+		border-right: none;
+	}
+	.usp-sec .grid-column-three {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.work-process-sec .grid-column-four {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.acc-container {
+		width: 100%;
+	}
+	.col-1 {
+		padding: 2rem 1rem;
+	}
+	.col-2 {
+		padding: 2rem 1rem;
+	}
+	.col-3 {
+		padding: 2rem 1rem;
+	}
+	.choose-us-image {
+		padding-top: 10rem;
+	}
+	.header-sub-links a.contact-num {
+		display: none;
+	}
+	.contact-page-sec .grid-column-three {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.hero-slider .slick-next {
+		height: 3rem;
+		width: 3rem;
+	}
+	.hero-slider .slick-prev {
+		height: 3rem;
+		width: 3rem;
+	}
+	.hero-slider .slick-next::after {
+		font-size: 1rem;
+	}
+	.hero-slider .slick-prev::after {
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.service-sec .grid-column-three {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.work-sec .grid-column-three {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.blog-sec .grid-column-three {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 3rem 2rem;
+	}
+	.footer-sec .grid-column-three {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.value-sec .grid-column-three {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.hero-content h1 {
+		font-size: 3rem;
+	}
+	.hero-link .btn {
+		line-height: 45px;
+		padding: 0 1.5rem;
+	}
+	.service-sec .value-card .card-image {
+		height: 20rem;
+	}
+	.service-sec .value-card .card-image img {
+		height: 20rem;
+	}
+	.usp-sec .grid-column-three {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.choose-sec .grid-column-three {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 2rem 0;
+	}
+	.choose-us-image {
+		padding-top: 0;
+	}
+	.case-study-card {
+		margin-bottom: 3rem;
+	}
+	.case-study-card .grid-column-two {
+		grid-template-columns: 1fr;
+	}
+	.col-1 {
+		padding: 5rem 0 0;
+	}
+	.col-2 {
+		padding: 3rem 0;
+	}
+	.col-3 {
+		padding: 0 0 5rem;
+	}
+	.hero-content p {
+		font-size: 1.1rem;
+	}
+	.mail-container {
+		padding: 2rem 0;
+		margin-bottom: 2rem;
+	}
+	.copyright {
+		padding: 2rem 0;
+	}
+	.company-info-container {
+		padding: 2rem 0 2rem 0;
+	}
+	.col-3 .company-info-container:first-child {
+		padding-top: 0;
+	}
+	.col-3 .company-info-container:last-child {
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 639px) {
+	.clients-sec .grid-column-four {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.social-sub-links {
+		display: none;
+	}
+	.header-sub-links {
+		display: none;
+	}
+	nav ul {
+		width: 100%;
+	}
+	h2 {
+		font-size: 2rem;
+	}
+	.work-process-sec .grid-column-four {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.inner-banner-content h4 {
+		font-size: 2.5rem;
+	}
+	.contact-page-sec .grid-column-three {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.contact-image {
+		display: none;
+	}
+	.form-container {
+		width: 100%;
+	}
+	.form-box-1 {
+		grid-template-columns: 1fr;
+		gap: 0;
+	}
+	.case-study-content h4 {
+		font-size: 1.3rem;
+	}
+	.vb-logo {
+		font-size: 1.7rem;
+	}
+	.vb-text {
+		font-size: 1.7rem;
+	}
+}
+
+@media only screen and (max-width: 432px) {
+	.clients-sec .grid-column-four {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
