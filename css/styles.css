@@ -1244,7 +1244,7 @@ nav ul li a:hover {
 }
 
 /* ======================
-	Service section
+	Service Page
 ======================	 */
 
 .srvc-banr-sec {
@@ -1292,14 +1292,14 @@ nav ul li a:hover {
 }
 
 /* ======================
-	Blogs section
+	Blogs Page
 ======================	 */
 .blog-page-sec .grid-column-three {
 	gap: 3rem 2rem;
 }
 
 /* ======================
-	Contact section
+	Contact Page
 ======================	 */
 .contact-page-sec .sub-heading {
 	text-align: center;
@@ -1419,4 +1419,46 @@ nav ul li a:hover {
 }
 .form-btn i {
 	font-size: 1.3rem;
+}
+
+/* ======================
+	Case Study Page
+======================	 */
+.case-stduy-sec .sub-heading {
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.case-study-content h2 {
+	margin-bottom: 1rem;
+}
+
+.case-study-content h4 {
+	margin-bottom: 1rem;
+	font-size: 1.8rem;
+	font-weight: 500;
+	color: var(--bg-color-black-gray-200);
+}
+.case-study-content p {
+	margin-bottom: 1rem;
+}
+
+.case-study-card {
+	margin-bottom: 8rem;
+}
+.case-study-card .grid-column-two {
+	gap: 2rem;
+	align-items: center;
+}
+
+.case-study-image .work-card {
+	padding: 0.5rem;
+	overflow: hidden;
+	height: 24rem;
+}
+.case-study-image .website-link {
+	height: 100%;
+}
+.case-stduy-sec .case-study-card:last-child {
+	margin: 0;
 }
