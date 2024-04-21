@@ -3,11 +3,15 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>virtuel</title>
-		<link rel="stylesheet" href="css/style.css" />
+		<title>Vibevital</title>
+		<link rel="stylesheet" href="css/styles.css" />
 		<link rel="stylesheet" href="css/responsive.css" />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+			href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Dosis:wght@200..800&display=swap"
 			rel="stylesheet"
 		/>
 		<link
@@ -17,10 +21,6 @@
 		/>
 
 		<script
-			src="https://kit.fontawesome.com/e088578515.js"
-			crossorigin="anonymous"
-		></script>
-		<script
 			src="https://code.jquery.com/jquery-3.7.1.min.js"
 			integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
 			crossorigin="anonymous"
@@ -29,118 +29,58 @@
 			type="text/javascript"
 			src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
 		></script>
+		<script
+			src="https://kit.fontawesome.com/e088578515.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
-		<!-- Popup From -->
-		<div class="pop-up-container">
-			<div class="pop-up-form-container">
-				<div class="popup-close-btn btn-close">
-					<i class="fa-solid fa-xmark"></i>
-				</div>
-				<h5>Enquire Now</h5>
-				<form>
-					<div class="contact-form">
-						<div class="form-box-1">
-							<div class="input-box">
-								<input
-									id="name"
-									type="text"
-									class="input-fields"
-									placeholder="Your Name"
-								/>
-							</div>
-							<div class="input-box">
-								<input
-									id="email"
-									type="email"
-									class="input-fields"
-									placeholder="Your Email"
-								/>
-							</div>
-						</div>
-						<div class="form-box-1">
-							<div class="input-box">
-								<input
-									id="name"
-									type="text"
-									class="input-fields"
-									placeholder="Contact Number"
-								/>
-							</div>
-						</div>
-						<div class="input-box">
-							<input
-								id="address"
-								type="text"
-								class="input-fields"
-								placeholder="Your Subject"
-							/>
-						</div>
-						<div class="input-box">
-							<textarea
-								name=""
-								id=""
-								cols="30"
-								rows="10"
-								class="input-fields"
-								placeholder="Write Your Message"
-							></textarea>
-						</div>
-						<button class="btn form-btn">
-							Send Message <i class="fa fa-telegram" aria-hidden="true"></i>
-						</button>
-					</div>
-				</form>
-			</div>
-		</div>
-
 		<!-- Header Section -->
 		<header>
 			<div class="overlay"></div>
 			<div class="container">
-				<div class="header-main-container">
+				<div class="header-container">
 					<div class="logo-container">
-						<a href="#index.html">
-							<img src="./img/logo.png" alt="logo" class="logo" />VIRTUEL</a
-						>
+						<a href="/" class="logo">
+							<div class="vb-logo">VB</div>
+							<div class="vb-text">Vibevital</div>
+						</a>
 					</div>
-					<div class="nav-links-container">
-						<nav>
-							<ul>
-								<div class="close-menu">
-									<i class="fa fa-times" aria-hidden="true"></i>
-								</div>
-								<li><a href="index.html">Home</a></li>
-								<li><a href="about.html">About us</a></li>
-								<li>
-									<a href="services.html">Services</a>
-								</li>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="blog.html">Blog</a></li>
-							</ul>
-						</nav>
-
+					<nav>
+						<ul>
+							<div class="close-menu"><i class="ri-close-fill"></i></div>
+							<div class="side-bar-menu">
+								<a href="/" class="logo">
+									<div class="vb-logo">VB</div>
+									<div class="vb-text">Vibevital</div>
+								</a>
+							</div>
+							<li><a href="/">Home</a></li>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="service.html">Services</a></li>
+							<li><a href="casestudy.html">Case study</a></li>
+							<li><a href="blogs.html">Blogs</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<div class="side-bar-links">
+								<a href="#"><i class="ri-facebook-line"></i></a>
+								<a href="#"><i class="ri-twitter-line"></i></a>
+								<a href="#"><i class="ri-instagram-line"></i></a>
+							</div>
+						</ul>
+					</nav>
+					<div class="header-links">
+						<div class="header-sub-links">
+							<a href="casestudy.html" class="case-study">Case Studies</a>
+							<a href="service.html" class="case-study">Services</a>
+							<a href="#" class="contact-num">Get It Support</a>
+						</div>
 						<div class="header-social-links">
-							<ul>
-								<li>
-									<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-								</li>
-								<li>
-									<a href="#"><i class="fa-brands fa-instagram"></i></a>
-								</li>
-								<li>
-									<a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-								</li>
-								<li>
-									<a href="E"><i class="fa-brands fa-linkedin-in"></i></a>
-								</li>
-							</ul>
-						</div>
-						<div class="get-in-touch">
-							<a href="#" class="btn-get-start btn-poup">Get Started</a>
-						</div>
-						<div class="menu-bar">
-							<i class="fa fa-bars" aria-hidden="true"></i>
+							<div class="social-sub-links">
+								<a href="#"><i class="ri-instagram-fill"></i></a>
+								<a href="#"><i class="ri-twitter-fill"></i></a>
+								<a href="#"><i class="ri-facebook-fill"></i></a>
+							</div>
+							<div class="menu-bar"><i class="ri-menu-3-line"></i></div>
 						</div>
 					</div>
 				</div>
@@ -148,19 +88,50 @@
 		</header>
 
 		<!-- Inner Banner Section -->
-		<section class="inner-banr-sec">
-			<div class="inner-bg">
-				<div class="container">
-					<div class="inner-banner-content">
-						<h4>About us</h4>
-						<p>A virtual assistant that works with you instead of for you</p>
-						<div class="innner-bnr-links">
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li>/</li>
-								<li>About us</li>
-							</ul>
+            <section class="inner-banr-sec">
+                <div class="inner-bg">
+                    <div class="container">
+                        <div class="inner-banner-content">
+                            <h4>About us</h4>
+                            <div class="innner-bnr-links">
+                                <ul>
+                                    <li><a href="/">Home</a></li>
+                                    <li>/</li>
+                                    <li>About us</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+		<!-- Our Usp Section -->
+		<section class="section usp-sec">
+			<div class="container">
+				<div class="grid-column-three">
+					<div class="usp-card">
+						<div class="usp-img-container">
+							<img src="./img/feature-icon-1.svg" alt="Usp Image" />
 						</div>
+						<h4>Flexibility & Responsive</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam</p>
+						<a href="#" class="btn">Learn More</a>
+					</div>
+					<div class="usp-card">
+						<div class="usp-img-container">
+							<img src="./img/feature-icon-2.svg" alt="Usp Image" />
+						</div>
+						<h4>Dedicated Teams</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam</p>
+						<a href="#" class="btn">Learn More</a>
+					</div>
+					<div class="usp-card">
+						<div class="usp-img-container">
+							<img src="./img/feature-icon-3.svg" alt="Usp Image" />
+						</div>
+						<h4>Focusing on Business</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam</p>
+						<a href="#" class="btn">Learn More</a>
 					</div>
 				</div>
 			</div>
@@ -171,196 +142,180 @@
 			<div class="container">
 				<div class="grid-column-two">
 					<div class="about-content">
-						<h3>WHO WE ARE</h3>
-						<h2>
-							Take control of your business with our virtual assistant services.
-						</h2>
+						<div class="sub-heading">
+							<h3>ABOUT OUR COMPANY</h3>
+							<h2>
+								Providing Your Business With A Quality IT Service is Our Passion
+							</h2>
+						</div>
 						<p>
-							Sociosqu lectus montes blandit auctor eros praesent cras cursus
-							odio faucibus. Donec luctus nulla potenti pede taciti placerat
-							aptent semper himenaeos pretium sed.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad
+							minim
 						</p>
-						<div class="members-container">
-							<div class="members">
-								<span class="member-image mem-image1"
-									><img src="./img/img__16.jpg" alt=""
-								/></span>
-								<span class="member-image mem-image2"
-									><img src="./img/img__03.jpg" alt=""
-								/></span>
-								<span class="member-image mem-image3"
-									><img src="./img/img__02.jpg" alt=""
-								/></span>
-								<span class="member-image mem-image4"
-									><img src="./img/img__12.jpg" alt=""
-								/></span>
-								<span class="member-image mem-image5"
-									><img src="./img/img__03.jpg" alt=""
-								/></span>
-							</div>
-							<div class="num-members">
-								<h5>2.845+</h5>
-								<p>Member Joined</p>
-							</div>
-						</div>
-						<a href="#" class="btn">Discover more</a>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+							enim ad minim veniam, quis nostrud exercitation ullamco laboris
+							nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+							enim ad minim veniam, quis nostrud exercitation ullamco laboris
+							nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<a href="#" class="btn">Learn More</a>
 					</div>
-					<div class="about-vedio">
-						<div class="about-vedio-image">
-							<img src="./img/about.jpg" alt="" />
-							<a href="#" class="play-btn"><i class="fa-solid fa-play"></i></a>
+					<div class="about-image-container">
+						<div class="image-container">
+							<img src="./img/about.png" alt="About" />
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-
-		<!-- Clients logo Section -->
-		<section class="clients-logo">
-			<div class="container">
-				<div class="logo-slider">
-					<div class="client-logo-image">
-						<img src="./img/logo-11.png" alt="" />
-					</div>
-					<div class="client-logo-image">
-						<img src="./img/logo-5.png" alt="" />
-					</div>
-					<div class="client-logo-image">
-						<img src="./img/logo-1.png" alt="" />
-					</div>
-					<div class="client-logo-image">
-						<img src="./img/logo-3.png" alt="" />
-					</div>
-					<div class="client-logo-image">
-						<img src="./img/logo-4.png" alt="" />
-					</div>
-					<div class="client-logo-image">
-						<img src="./img/logo-11.png" alt="" />
-					</div>
-					<div class="client-logo-image">
-						<img src="./img/logo-5.png" alt="" />
-					</div>
-					<div class="client-logo-image">
-						<img src="./img/logo-4.png" alt="" />
-					</div>
-					<div class="client-logo-image">
-						<img src="./img/logo-11.png" alt="" />
-					</div>
-					<div class="client-logo-image">
-						<img src="./img/logo-3.png" alt="" />
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Our value Section -->
+	
+		<!-- Our Value Section -->
 		<section class="section value-sec">
-			<div class="values-bg">
-				<div class="container">
+			<div class="container">
+				<div class="sub-heading">
 					<h3>OUR VALUE</h3>
 					<h2>We talk a lot about hope helping and teamwork</h2>
-					<div class="vaules-content">
-						<div class="grid-column-three">
-							<div class="value-card">
-								<div class="values-icon">
-									<i class="fa-solid fa-microphone"></i>
-								</div>
-								<h4>Our Vision</h4>
-								<p>
-									Imperdiet purus mollis luctus diam rutrum taciti lacinia
-									turpis erat
-								</p>
-								<div class="num-values">01</div>
-							</div>
-							<div class="value-card">
-								<div class="values-icon">
-									<i class="fa-solid fa-bullseye"></i>
-								</div>
-								<h4>Our Mission</h4>
-								<p>
-									Imperdiet purus mollis luctus diam rutrum taciti lacinia
-									turpis erat
-								</p>
-								<div class="num-values">02</div>
-							</div>
-							<div class="value-card">
-								<div class="values-icon">
-									<i class="fa-solid fa-bullhorn"></i>
-								</div>
-								<h4>Our Motto</h4>
-								<p>
-									Imperdiet purus mollis luctus diam rutrum taciti lacinia
-									turpis erat
-								</p>
-								<div class="num-values">03</div>
-							</div>
+				</div>
+				<div class="grid-column-three">
+					<div class="value-card">
+						<div class="card-image">
+							<img src="./img/vision.png" alt="Value" />
 						</div>
+						<h4>Our Vision</h4>
+						<p>
+							Imperdiet purus mollis luctus diam rutrum taciti lacinia turpis
+							erat
+						</p>
+					</div>
+					<div class="value-card">
+						<div class="card-image">
+							<img src="./img/mission.png" alt="Value" />
+						</div>
+						<h4>Our Mission</h4>
+						<p>
+							Imperdiet purus mollis luctus diam rutrum taciti lacinia turpis
+							erat
+						</p>
+					</div>
+					<div class="value-card">
+						<div class="card-image">
+							<img src="./img/motto.png" alt="Value" />
+						</div>
+						<h4>Our Motto</h4>
+						<p>
+							Imperdiet purus mollis luctus diam rutrum taciti lacinia turpis
+							erat
+						</p>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- Why Choose Us Section -->
-		<section class="section choose-us-sec about-choose-sec">
+		<!-- Work Process Section -->
+		<section class="section work-process-sec">
 			<div class="container">
-				<div class="choose-us-container">
-					<div class="grid-column-two">
-						<div class="choose-us-content">
-							<h3>WHY CHOOSE US</h3>
-							<h2>We work with you to find the perfect VA for your needs.</h2>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-								tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-							</p>
-							<div class="grid-column-two">
-								<div class="value-card">
-									<div class="values-icon">
-										<i class="fa fa-cog" aria-hidden="true"></i>
-									</div>
-									<h4>Comprehensive Solutions</h4>
-									<p>
-										Magna sem rhoncus aliquet tortor sit natoque mattis dictumst
-										venenatis
-									</p>
-								</div>
-								<div class="value-card">
-									<div class="values-icon">
-										<i class="fa fa-users" aria-hidden="true"></i>
-									</div>
-									<h4>Expertise and Experience</h4>
-									<p>
-										Magna sem rhoncus aliquet tortor sit natoque mattis dictumst
-										venenatis
-									</p>
-								</div>
-								<div class="value-card">
-									<div class="values-icon">
-										<i class="fa-regular fa-clock"></i>
-									</div>
-									<h4>Time and Cost Efficiency</h4>
-									<p>
-										Magna sem rhoncus aliquet tortor sit natoque mattis dictumst
-										venenatis
-									</p>
-								</div>
-								<div class="value-card">
-									<div class="values-icon">
-										<i class="fa-solid fa-bullseye"></i>
-									</div>
-									<h4>Personalized Assistance</h4>
-									<p>
-										Magna sem rhoncus aliquet tortor sit natoque mattis dictumst
-										venenatis
-									</p>
-								</div>
-							</div>
+				<div class="sub-heading">
+					<h3>WORK PROCESS</h3>
+					<h2>
+						Working Process
+					</h2>
+				</div>
+				<div class="grid-column-four">
+					<div class="usp-card">
+						<div class="usp-img-container">
+							<img src="./img/workprocess-icon-1.svg" alt="Usp Image" />
 						</div>
+						<h4>Flexibility & Responsive</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam</p>
+					</div>
+					<div class="usp-card">
+						<div class="usp-img-container">
+							<img src="./img/workprocess-icon-2.svg" alt="Usp Image" />
+						</div>
+						<h4>Dedicated Teams</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam</p>
+					</div>
+					<div class="usp-card">
+						<div class="usp-img-container">
+							<img src="./img/workprocess-icon-3.svg" alt="Usp Image" />
+						</div>
+						<h4>Focusing on Business</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam</p>
+					</div>
+					<div class="usp-card">
+						<div class="usp-img-container">
+							<img src="./img/workprocess-icon-4.svg" alt="Usp Image" />
+						</div>
+						<h4>Focusing on Business</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-						<div class="choose-us-image">
-							<div class="choose-image">
-								<img src="./img/chooseus1.jpg" alt="" />
-							</div>
-						</div>
+		<!-- Contact Section -->
+		<section class="contact-sec">
+			<div class="container">
+				<div class="contact-content">
+					<div class="sub-heading">
+						<h3>WANT TO WORK WITH US?</h3>
+						<h2>Digitally Transform & Grow Your Business</h2>
+					</div>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+						ad minim veniam, quis nostrud consectetur voluptatem accusantium
+						doloremque adipiscing elit.
+					</p>
+					<div class="contact-links">
+						<a href="#" class="btn">Call Now</a>
+						<a href="#" class="btn cont-us-link">Contact Us</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+        <!-- Customers Section -->
+		<section class="section clients-sec">
+			<div class="container">
+				<div class="sub-heading">
+					<h3>TRUSTED CLIENTS</h3>
+					<h2>OUR CLIENTS</h2>
+				</div>
+
+				<div class="grid-column-four">
+					<div class="logo-box">
+						<img src="./img/logo2.png" alt="Client Logo" class="clients-logo" />
+					</div>
+					<div class="logo-box">
+						<img
+							src="./img/beetellogo5.svg"
+							alt="Client Logo"
+							class="clients-logo"
+						/>
+					</div>
+					<div class="logo-box">
+						<img
+							src="./img/logo1.png"
+							alt="Client Logo"
+							class="clients-logo client-bg-color"
+						/>
+					</div>
+					<div class="logo-box">
+						<img src="./img/logo3.png" alt="Client Logo" class="clients-logo" />
+					</div>
+					<div class="logo-box">
+						<img src="./img/logo4.svg" alt="Client Logo" class="clients-logo" />
+					</div>
+					<div class="logo-box">
+						<img src="./img/logo6.svg" alt="Client Logo" class="clients-logo" />
 					</div>
 				</div>
 			</div>
@@ -369,71 +324,74 @@
 		<!-- Faq Section -->
 		<section class="section faq-sec">
 			<div class="container">
-				<h3>FAQ</h3>
-				<h2>Frequently asked questions</h2>
+				<div class="sub-heading">
+					<h3>FQA'S</h3>
+					<h2>Frequently Ask Question</h2>
+				</div>
 				<div class="acc-container">
 					<div class="acc-box active">
 						<div class="acc-heading">
-							<h5>01. Curious about how to your own UX strategy?</h5>
+							<h5>01. How long does a website redesign take?</h5>
 							<p class="symbol">+</p>
 						</div>
 						<div class="acc-text">
 							<p>
-								Web designing in a powerful way of just not a profession,
-								however for our Company. We have a tendency to believe the idea
-								that smart looking to believe the idea that smart looking.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 							</p>
 						</div>
 					</div>
 					<div class="acc-box">
 						<div class="acc-heading">
-							<h5>02. Where Could a Career in UX Take You?</h5>
+							<h5>02. What happens if my site breaks?</h5>
 							<p class="symbol">+</p>
 						</div>
 						<div class="acc-text">
 							<p>
-								Web designing in a powerful way of just not a profession,
-								however for our Company. We have a tendency to believe the idea
-								that smart looking to believe the idea that smart looking.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 							</p>
 						</div>
 					</div>
 					<div class="acc-box">
 						<div class="acc-heading">
-							<h5>03. What Is a Problem Statement in UX?</h5>
+							<h5>03. What is the difference between my CMS, DNS, hosting, FTP, etc.?</h5>
 							<p class="symbol">+</p>
 						</div>
 						<div class="acc-text">
 							<p>
-								Web designing in a powerful way of just not a profession,
-								however for our Company. We have a tendency to believe the idea
-								that smart looking to believe the idea that smart looking.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 							</p>
 						</div>
 					</div>
 					<div class="acc-box">
 						<div class="acc-heading">
-							<h5>04. What are the users are facing?</h5>
+							<h5>04. Can you handle ongoing maintenance?</h5>
 							<p class="symbol">+</p>
 						</div>
 						<div class="acc-text">
 							<p>
-								Web designing in a powerful way of just not a profession,
-								however for our Company. We have a tendency to believe the idea
-								that smart looking to believe the idea that smart looking.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 							</p>
 						</div>
 					</div>
 					<div class="acc-box">
 						<div class="acc-heading">
-							<h5>05. What are they trying to?</h5>
+							<h5>05. Do you only create WordPress websites?</h5>
 							<p class="symbol">+</p>
 						</div>
 						<div class="acc-text">
 							<p>
-								Web designing in a powerful way of just not a profession,
-								however for our Company. We have a tendency to believe the idea
-								that smart looking to believe the idea that smart looking.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</div>
+					</div>
+					<div class="acc-box">
+						<div class="acc-heading">
+							<h5>05. Can I update the website myself once it’s built?</h5>
+							<p class="symbol">+</p>
+						</div>
+						<div class="acc-text">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 							</p>
 						</div>
 					</div>
@@ -441,82 +399,74 @@
 			</div>
 		</section>
 
+
 		<!-- Footer Section -->
-		<footer>
+		<footer class="footer-sec">
 			<div class="container">
-				<div class="section footer-container">
-					<div class="grid-column-four">
-						<div class="ft-company-info">
-							<div class="logo-container">
-								<a href="#index.html">
-									<img src="./img/logo.png" alt="logo" class="logo" />VIRTUEL</a
-								>
-							</div>
-							<p>
-								Tempus hendrerit imperdiet conubia felis sodales semper.
-								Adipiscing fusce elit platea lobortis facilisis metus non id
-								sociosqu vel.
-							</p>
-							<div class="header-social-links">
-								<ul>
-									<li>
-										<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-									</li>
-									<li>
-										<a href="#"><i class="fa-brands fa-instagram"></i></a>
-									</li>
-									<li>
-										<a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-									</li>
-									<li>
-										<a href="E"><i class="fa-brands fa-linkedin-in"></i></a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="ft-links">
-							<h5>Services</h5>
-							<ul>
-								<li><a href="#">Inbox Management</a></li>
-								<li><a href="#">Event Planning</a></li>
-								<li><a href="#">Travel Booking</a></li>
-								<li><a href="#">Data Presentations</a></li>
-								<li><a href="#">Expenses & Invoices</a></li>
-								<li><a href="#">Data Entry</a></li>
-							</ul>
-						</div>
-						<div class="ft-links">
-							<h5>Support</h5>
-							<ul>
-								<li><a href="#">Help Center</a></li>
-								<li><a href="#">Ticket Support</a></li>
-								<li><a href="#">FAQ</a></li>
-								<li><a href="#">Contact us</a></li>
-								<li><a href="#">Forum Communitys</a></li>
-							</ul>
-						</div>
-						<div class="ft-links">
-							<h5>Subscribe Now</h5>
-							<p>Subscribe Our Newsletter To Get Latest Update And News</p>
-							<div class="newsletter">
-								<input type="text" placeholder="Your Email" />
-								<button type="submit" class="btn-get-start subs-btn">
-									Subscribe Now
+				<div class="grid-column-three">
+					<div class="col-1">
+						<div class="subscribe-box">
+							<h4>Subscribe Now!</h4>
+							<div class="sbs-input-box">
+								<input type="text" placeholder="Your email" />
+								<button type="submit" class="sbs-btn">
+									SEND NOW <i class="ri-arrow-right-up-line"></i>
 								</button>
 							</div>
 						</div>
+						<div class="company-adress">
+							<div class="map-icon">
+								<i class="fa-solid fa-location-dot"></i>
+							</div>
+							<p>
+								123, Main Street, Near ABC Farm, Noida, Uttar Pradesh - 000000
+							</p>
+						</div>
+						<div class="ft-social-links">
+							<a href="#"><i class="ri-twitter-line"></i></a>
+							<a href="#"><i class="ri-instagram-line"></i></a>
+							<a href="#"><i class="ri-facebook-line"></i></a>
+						</div>
 					</div>
-				</div>
-				<div class="copy-right">
-					<p>Copyright © 2024 Virtuel, All rights reserved. Haseeb Ansari.</p>
-					<div class="terms-condition">
-						<ul>
-							<li><a href="#">Term of service</a></li>
-							<li>|</li>
-							<li><a href="#">Privacy Policy</a></li>
-							<li>|</li>
-							<li><a href="#">Cookie Policy</a></li>
-						</ul>
+					<div class="col-2">
+						<div class="quick-links-container">
+							<h4>Quick Links</h4>
+							<div class="grid-column-two">
+								<div class="ft-links">
+									<ul>
+										<li><a href="#">Web Development</a></li>
+										<li><a href="#">Apps Development</a></li>
+										<li><a href="#">Digital Marketing </a></li>
+										<li><a href="#">UI/UX Development</a></li>
+										<li><a href="#">SEO Optimization</a></li>
+										<li><a href="#">IT Consulting</a></li>
+									</ul>
+								</div>
+								<div class="ft-links">
+									<ul>
+										<li><a href="#">About Us</a></li>
+										<li><a href="#">Case Studies</a></li>
+										<li><a href="#">Contact Us</a></li>
+										<li><a href="#">Privacy Policy</a></li>
+										<li><a href="#">Terms & Conditions</a></li>
+										<li><a href="#">Pricing</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="company-info-container">
+							<p>Our phone number</p>
+							<a href="#" class="ft-contact-num">+91 8130505609</a>
+						</div>
+						<div class="company-info-container mail-container">
+							<p>Our email address</p>
+							<a href="#" class="ft-mail">ansari.hasib99@gmail.com</a>
+						</div>
+						<div class="company-info-container copyright">
+							<p>Copyright © 2024 <span>Haseeb Ansari</span> Template</h4>
+						</div>
 					</div>
 				</div>
 			</div>
