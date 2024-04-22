@@ -1251,6 +1251,7 @@ nav ul li a:hover {
 	width: 100%;
 	cursor: pointer;
 }
+
 .acc-heading {
 	background: var(--bg-section-color);
 	padding: 1rem;
@@ -1270,6 +1271,7 @@ nav ul li a:hover {
 }
 .acc-heading h5 {
 	font-weight: 600;
+	color: var(--color-black-300);
 }
 .symbol {
 	font-size: 1.5rem;
@@ -1277,7 +1279,7 @@ nav ul li a:hover {
 }
 .acc-box.active .acc-text {
 	max-height: 100vh;
-	transition: all 1s ease;
+	transition: max-height 3s ease;
 }
 .acc-text p {
 	line-height: 1.6;
