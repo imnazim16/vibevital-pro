@@ -370,7 +370,7 @@ nav ul.active {
 nav ul li {
 	width: 100%;
 	margin-bottom: 0.5rem;
-	padding: 0.3rem 0 0 1rem;
+	padding: 0.3rem 0 0 0;
 }
 nav ul li a {
 	display: block;
@@ -414,7 +414,7 @@ nav ul li a:hover {
 	align-items: center;
 	gap: 0.5rem;
 	margin-top: 1.5rem;
-	padding-left: 1rem;
+	/* padding-left: 1rem; */
 }
 .side-bar-links a {
 	display: flex;
