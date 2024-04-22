@@ -84,7 +84,7 @@ accBox.forEach((item, index) => {
 	});
 });
 
-// 	 Scroll Top
+// ----- Scroll Top -----
 
 var scrollTopPage = document.querySelector('.scroll-tp');
 var arrowY = 150;
@@ -98,3 +98,20 @@ window.addEventListener('scroll', function () {
 		scrollTopPage.classList.add('active');
 	}
 });
+
+// ----- Coockies -----
+
+var closeButton = document.querySelectorAll('.ckc-btn');
+var coockies = document.querySelector('.cookies');
+document.addEventListener("DOMContentLoaded", function() {
+	// Display the popup after 3 seconds
+	setTimeout(function() {
+		coockies.classList.add('active')
+	}, 2000);
+  
+	closeButton.forEach(function(btn) {
+	  btn.addEventListener('click', function() {
+		coockies.classList.remove('active')
+	  });
+	});
+  });
