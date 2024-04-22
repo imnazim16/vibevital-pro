@@ -542,19 +542,19 @@ nav ul li a:hover {
 	color: var(--color-white);
 	cursor: pointer;
 }
-.slick-dots {
+.hero-slider .slick-dots {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	position: absolute;
-	bottom: 5rem;
+	bottom: 5.5rem;
 	left: 50%;
 	transform: translateX(-50%);
 }
-.slick-dots li {
+.hero-slider .slick-dots li {
 	margin-right: 0.5rem;
 }
-.slick-dots li button {
+.hero-slider .slick-dots li button {
 	border: none;
 	height: 0.3rem;
 	width: 6rem;
@@ -569,7 +569,7 @@ nav ul li a:hover {
 .slick-dots li:last-child button {
 	border-radius: 0 3rem 3rem 0;
 } */
-.slick-dots li.slick-active button {
+.hero-slider .slick-dots li.slick-active button {
 	background: var(--color-blue);
 }
 
