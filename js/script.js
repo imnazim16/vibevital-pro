@@ -1,14 +1,22 @@
-"use strict";
+'use strict';
 
 $('.hero-slider').slick({
-    dots: true,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 1,
-    adaptiveHeight: true
-  });
+	dots: true,
+	infinite: true,
+	speed: 300,
+	slidesToShow: 1,
+	adaptiveHeight: true,
+	responsive: [
+		{
+			breakpoint: 461,
+			settings: {
+				dots: false,
+			},
+		},
+	],
+});
 
-  $('.test-slider').slick({
+$('.test-slider').slick({
 	infinite: true,
 	slidesToShow: 3,
 	slidesToScroll: 1,
@@ -34,39 +42,29 @@ $('.hero-slider').slick({
 				arrows: false,
 			},
 		},
-		// {
-		// 	breakpoint: 500,
-		// 	settings: {
-		// 		arrows: fasle,
-		// 		slidesToShow: 1,
-		// 		slidesToScroll: 1,
-		// 		infinite: true,
-		// 	},
-		// },
 	],
-});  
+});
 
 // Menue Bar
-const openMenueBar = document.querySelector(".menu-bar");
-const closeMenueBar = document.querySelector(".close-menu");
-const menueBar = document.querySelector("nav ul");
-const overlay = document.querySelector(".overlay");
+const openMenueBar = document.querySelector('.menu-bar');
+const closeMenueBar = document.querySelector('.close-menu');
+const menueBar = document.querySelector('nav ul');
+const overlay = document.querySelector('.overlay');
 
-openMenueBar.addEventListener("click", ()=>{
-    menueBar.classList.add("active");
-    overlay.classList.add("active");
-})
+openMenueBar.addEventListener('click', () => {
+	menueBar.classList.add('active');
+	overlay.classList.add('active');
+});
 
-closeMenueBar.addEventListener("click", ()=>{
-    menueBar.classList.remove("active");
-    overlay.classList.remove("active");
-})
+closeMenueBar.addEventListener('click', () => {
+	menueBar.classList.remove('active');
+	overlay.classList.remove('active');
+});
 
-overlay.addEventListener("click", ()=>{
-    menueBar.classList.remove("active");
-    overlay.classList.remove("active");
-})
-
+overlay.addEventListener('click', () => {
+	menueBar.classList.remove('active');
+	overlay.classList.remove('active');
+});
 
 // ------- Accordian -----------
 
@@ -84,4 +82,19 @@ accBox.forEach((item, index) => {
 		});
 		symbol[index].textContent = '-';
 	});
+});
+
+// 	 Scroll Top
+
+var scrollTopPage = document.querySelector('.scroll-tp');
+var arrowY = 150;
+
+window.addEventListener('scroll', function () {
+	// console.log(window.scrollY)
+	var scrollTop = window.scrollY;
+	if (scrollTop < arrowY) {
+		scrollTopPage.classList.remove('active');
+	} else {
+		scrollTopPage.classList.add('active');
+	}
 });
