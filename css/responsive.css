@@ -169,9 +169,6 @@
 	.contact-info h5 {
 		font-size: 1.5rem;
 	}
-	.hero-slider .slick-dots {
-		bottom: 10rem;
-	}
 }
 
 @media only screen and (max-width: 639px) {
@@ -218,16 +215,10 @@
 	.vb-text {
 		font-size: 1.7rem;
 	}
-	.hero-slider .slick-dots {
-		bottom: 7rem;
-	}
 }
 
 @media only screen and (max-width: 432px) {
 	.clients-sec .grid-column-four {
 		grid-template-columns: repeat(1, 1fr);
-	}
-	.hero-slider .slick-dots {
-		bottom: 5.2rem;
 	}
 }
