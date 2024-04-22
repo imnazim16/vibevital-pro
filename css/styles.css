@@ -25,6 +25,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+html {
+	scroll-behavior: smooth;
+}
 
 body {
 	font-size: 1rem;
@@ -166,9 +169,37 @@ input:focus {
 .innner-bnr-links ul li a:hover {
 	color: var(--color-orange);
 }
-.mt-top{
+.mt-top {
 	margin-top: 5rem;
 }
+
+.scroll-tp {
+	position: fixed;
+	bottom: 1.3rem;
+	right: 2rem;
+	height: 2.5rem;
+	width: 2.5rem;
+	border-radius: 0.3rem;
+	background: var(--color-blue);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 10;
+	visibility: hidden;
+	opacity: 0;
+	transition: var(--transition);
+}
+
+.scroll-tp i {
+	color: var(--color-white);
+	font-size: 1.5rem;
+}
+
+.scroll-tp.active {
+	visibility: visible;
+	opacity: 1;
+}
+
 /* --- Header Section --- */
 header {
 	position: fixed;
@@ -520,6 +551,9 @@ nav ul li a:hover {
 	left: 50%;
 	transform: translateX(-50%);
 }
+.slick-dots li {
+	margin-right: 0.5rem;
+}
 .slick-dots li button {
 	border: none;
 	height: 0.3rem;
@@ -527,13 +561,14 @@ nav ul li a:hover {
 	font-size: 0;
 	background: var(--color-white);
 	cursor: pointer;
+	border-radius: 0.3rem;
 }
-.slick-dots li:first-child button {
+/* .slick-dots li:first-child button {
 	border-radius: 3rem 0 0 3rem;
 }
 .slick-dots li:last-child button {
 	border-radius: 0 3rem 3rem 0;
-}
+} */
 .slick-dots li.slick-active button {
 	background: var(--color-blue);
 }
@@ -627,10 +662,10 @@ nav ul li a:hover {
 .service-sec .value-card .card-image img {
 	border-radius: 0;
 	height: 14rem;
-	/* border: 0; */
+	border: 0;
 	width: 100%;
 	object-fit: cover;
-	padding: 1rem;
+	padding: inherit;
 }
 .service-sec .value-card h4 {
 	margin-top: 1.5rem;
