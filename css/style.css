@@ -55,7 +55,7 @@ h3 {
 
 /* ---- Reusable CSS ---- */
 .container {
-	width: 1240px;
+	max-width: 1240px;
 	margin: 0 auto;
 }
 .section {
