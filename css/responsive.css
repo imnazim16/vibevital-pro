@@ -172,6 +172,12 @@
 	.cookies {
 		width: 100%;
 	}
+	.header-container {
+		height: 4rem;
+	}
+	.mt-top {
+		margin-top: 4rem;
+	}
 }
 
 @media only screen and (max-width: 639px) {
