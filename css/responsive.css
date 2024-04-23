@@ -178,6 +178,9 @@
 	.mt-top {
 		margin-top: 3.8rem;
 	}
+	.blog-detail-sec .container {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 639px) {
