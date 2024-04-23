@@ -209,7 +209,8 @@
 		grid-template-columns: repeat(1, 1fr);
 	}
 	.inner-banner-content h4 {
-		font-size: rem;
+		font-size: 2.8rem;
+		text-align: center;
 	}
 	.contact-page-sec .grid-column-three {
 		grid-template-columns: repeat(1, 1fr);
