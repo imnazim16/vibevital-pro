@@ -27,6 +27,22 @@
 }
 html {
 	scroll-behavior: smooth;
+	height: 100%;
+	margin: 0;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 10px var(--color-blue);
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
 }
 
 body {
@@ -65,7 +81,7 @@ textarea {
 }
 /* --- Reusable CSS --- */
 .container {
-	width: 1240px;
+	width: 1140px;
 	margin: 0 auto;
 }
 .section {
@@ -354,7 +370,7 @@ nav ul {
 	height: 100%;
 	width: 400px;
 	background: var(--bg-color-black-gray-200);
-	padding: 4rem 1rem 2rem;
+	padding: 4rem 1rem 2rem 3rem;
 	overflow-y: scroll;
 	z-index: 105;
 	transform: translateX(100%);
@@ -370,7 +386,7 @@ nav ul.active {
 nav ul li {
 	width: 100%;
 	margin-bottom: 0.5rem;
-	padding: 0.3rem 0 0 1rem;
+	padding: 0.3rem 0 0 0;
 }
 nav ul li a {
 	display: block;
@@ -388,12 +404,10 @@ nav ul li a:hover {
 .close-menu {
 	position: absolute;
 	top: 1rem;
-	right: 2rem;
+	right: 3rem;
 	height: 2rem;
 	width: 2rem;
 	cursor: pointer;
-	z-index: 110;
-	display: none;
 }
 
 .close-menu i {
@@ -403,7 +417,6 @@ nav ul li a:hover {
 
 .side-bar-menu {
 	margin-bottom: 1.5rem;
-	display: none;
 }
 .side-bar-menu .logo .vb-text {
 	font-weight: 500;
@@ -417,7 +430,7 @@ nav ul li a:hover {
 	align-items: center;
 	gap: 0.5rem;
 	margin-top: 1.5rem;
-	padding-left: 1rem;
+	/* padding-left: 1rem; */
 }
 .side-bar-links a {
 	display: flex;
@@ -1578,4 +1591,69 @@ nav ul li a:hover {
 .case-stduy-sec .case-study-card:last-child {
 	margin: 0;
 }
-/* end css */
+
+.main {
+	text-align: center;
+}
+
+.marq {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 1px solid var(--color-border);
+	border-bottom: 1px solid var(--color-border);
+}
+
+.geek1 {
+	font-size: 36px;
+	font-weight: bold;
+	color: white;
+	padding-bottom: 10px;
+}
+.mark-srvc-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.mark-heading {
+	font-size: 1.5rem;
+}
+
+/* ======================
+	Blog Deatil Page
+======================	 */
+.detail-image {
+	width: 100%;
+	display: block;
+	margin-bottom: 2rem;
+}
+.blg-dtl-info ul {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin: 1rem 0;
+	font-weight: 600;
+	color: var(--color-blue);
+}
+.para h4 {
+	font-size: 1.8rem;
+	color: var(--color-black-200);
+	margin-bottom: 0.8rem;
+}
+.para p {
+	margin-bottom: 0.8rem;
+	line-height: 1.3;
+}
+.para p:last-child {
+	margin-bottom: 0;
+}
+.para {
+	margin-bottom: 1.8rem;
+}
+.blog-detail-content h5 {
+	font-size: 2.3rem;
+	color: var(--color-black-200);
+	margin: 2rem 0;
+}
+.blog-detail-sec .container {
+	width: 700px;
+}
