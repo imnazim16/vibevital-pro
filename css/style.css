@@ -408,6 +408,8 @@ nav ul li a:hover {
 	height: 2rem;
 	width: 2rem;
 	cursor: pointer;
+	z-index: 106;
+	display: none;
 }
 
 .close-menu i {
@@ -417,6 +419,7 @@ nav ul li a:hover {
 
 .side-bar-menu {
 	margin-bottom: 1.5rem;
+	display: none;
 }
 .side-bar-menu .logo .vb-text {
 	font-weight: 500;
@@ -482,6 +485,7 @@ nav ul li a:hover {
 	display: flex;
 	align-items: center;
 	gap: 0.8rem;
+	display: none;
 }
 .social-sub-links a {
 	color: var(--color-black-300);
