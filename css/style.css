@@ -433,7 +433,7 @@ nav ul li a:hover {
 	align-items: center;
 	gap: 0.5rem;
 	margin-top: 1.5rem;
-	/* padding-left: 1rem; */
+	display: none;
 }
 .side-bar-links a {
 	display: flex;
@@ -485,7 +485,6 @@ nav ul li a:hover {
 	display: flex;
 	align-items: center;
 	gap: 0.8rem;
-	display: none;
 }
 .social-sub-links a {
 	color: var(--color-black-300);
