@@ -181,6 +181,9 @@
 	.blog-detail-sec .container {
 		width: 100%;
 	}
+	.hero-content p {
+		margin-bottom: 2.5rem;
+	}
 }
 
 @media only screen and (max-width: 639px) {

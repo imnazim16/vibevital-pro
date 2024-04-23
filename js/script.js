@@ -8,7 +8,7 @@ $(".hero-slider").slick({
   adaptiveHeight: true,
   responsive: [
     {
-      breakpoint: 461,
+      breakpoint: 768,
       settings: {
         dots: false,
       },
