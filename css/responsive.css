@@ -188,6 +188,9 @@
 	.hero-slider .slick-dots {
 		bottom: 2rem;
 	}
+	.contact-page-sec .sub-heading h2 {
+		max-width: inherit;
+	}
 }
 
 @media only screen and (max-width: 639px) {
