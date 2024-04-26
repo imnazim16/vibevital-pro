@@ -1681,3 +1681,44 @@ nav ul li a:hover {
 .blog-detail-sec .container {
 	width: 700px;
 }
+
+/* ======================
+	Privacy Page
+======================	 */
+.policy-box {
+	margin-bottom: 1.5rem;
+}
+.policy-box h4 {
+	font-size: 1.8rem;
+	color: var(--color-black-200);
+	margin-bottom: 1rem;
+}
+.policy-box p {
+	margin-bottom: 1rem;
+}
+.policy-box p:last-child {
+	margin-bottom: 0;
+}
+
+/* ======================
+	Terms condition Page
+======================	 */
+
+.terms-box {
+	margin-bottom: 1.5rem;
+}
+.terms-box h4 {
+	font-size: 1.8rem;
+	color: var(--color-black-200);
+	margin-bottom: 1rem;
+}
+.terms-box p {
+	margin-bottom: 1rem;
+}
+.terms-box p span {
+	color: var(--color-black-200);
+	font-weight: 600;
+}
+.terms-box p:last-child {
+	margin-bottom: 0;
+}
