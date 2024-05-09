@@ -11,7 +11,7 @@ $(".hero-slider").slick({
       breakpoint: 768,
       settings: {
         dots: true,
-        arrows:false
+        arrows: false,
       },
     },
   ],
